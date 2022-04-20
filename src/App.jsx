@@ -1,6 +1,6 @@
 import React from "react";
 import { Description } from "./Description";
-import { Copyright } from "./Copyright";
+import { Bottom } from "./Bottom";
 import { Content } from "./Content";
 import { Navbar } from "./Navbar";
 import { Thing } from "./Thing";
@@ -12,7 +12,7 @@ function App() {
       <Description />
       <Thing />
       <Content />
-      <Copyright />
+      <Bottom />
     </div>
   );
 }

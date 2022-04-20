@@ -11,7 +11,9 @@ export function Description() {
         </span>
       </p>
       <p>
-        <b>Now available for hiring! Wow!</b>
+        <span className="descriptionWow">
+          <b>Now available for hiring! Wow!</b>
+        </span>
       </p>
       <ul>
         <li>
