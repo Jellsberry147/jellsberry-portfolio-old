@@ -6,7 +6,9 @@ export function Description() {
       <h3>LIMITED-TIME OFFER</h3>
       <hr className="desciptionHr" />
       <p>
-        <span className="descriptionIntro">Fast Learner, Strong Developer</span>
+        <span className="descriptionIntro">
+          <i> Fast Learner, Strong Developer</i>
+        </span>
       </p>
       <p>
         <b>Now available for hiring! Wow!</b>
