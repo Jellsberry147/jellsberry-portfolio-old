@@ -9,7 +9,6 @@ Body {
 
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  margin: 100px auto 20px;
   font-size: 200%;
   color: rgb(29, 29, 29);
   width: 90%;
@@ -26,29 +25,111 @@ h5 {
   justify-content: center;
   text-align: center;
 }
+@media (min-width: 1200px) {
+  h1 {
+    margin: 200px 0 0 0;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 720px) {
+  h1 {
+    margin: 300px 0 0 0;
+  }
+}
+
+@media (max-width: 720px) and (min-width: 360px) {
+  h1 {
+    margin: 400px 0 0 0;
+  }
+}
 
 .bayImg {
   width: 100%;
-  max-width: 900px;
   min-width: 400px;
   padding: 0;
 }
 
+.flex-container > div {
+  margin: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-around;
+}
 .beachImg {
-  width: 300px;
-  height: 500px;
-  margin: 10px;
+  display: flex;
+  flex-wrap: row-wrap;
   justify-content: center;
 }
 
 .beachIMGL {
-  z-index: 3;
+  background-image: url("beachL.jpg");
+  background-size: cover;
+  aspect-ratio: 1/3;
+  width: 20%;
+  margin: 0 10px 0 10px;
+  display: flex;
+  font-size: 200%;
+  border-radius: 3px;
+  padding: 10px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  align-items: center;
+}
+
+.beachIMGML {
+  background-image: url("beachML.jpg");
+  background-size: cover;
+  aspect-ratio: 1/3;
+  width: 20%;
+  margin: 0 10px 0 10px;
+  display: flex;
+  font-size: 200%;
+  padding: 10px;
+
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  align-items: center;
+}
+
+.beachIMGMR {
+  background-image: url("beachMR.jpg");
+  background-size: cover;
+  aspect-ratio: 1/3;
+  width: 20%;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  display: flex;
+  font-size: 200%;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  align-items: center;
+}
+
+.beachIMGR {
+  background-image: url("beachR.jpg");
+  background-size: cover;
+  aspect-ratio: 1/3;
+  width: 20%;
+  border-radius: 3px;
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  display: flex;
+  font-size: 200%;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  align-items: center;
 }
 
 .content {
   justify-content: center;
   align-items: center;
-  flex: 25%;
+  flex: flex-flow;
 }
 
 .details {
@@ -75,7 +156,7 @@ h5 {
   margin: 1px;
 }
 
-.footerLink {
+.footer-link {
   color: rgb(130, 195, 212);
   margin: 10px;
 }
@@ -96,6 +177,7 @@ h5 {
   margin: 1px;
 }
 .description {
+  margin-bottom: 10px;
   object-fit: cover;
   border-radius: 5px;
   position: absolute;
@@ -105,7 +187,7 @@ h5 {
   text-align: justify;
   background-color: white;
   color: rgb(29, 29, 29);
-  height: 320px;
+  height: 350px;
   width: 400px;
   right: 50px;
   top: 200px;
@@ -121,8 +203,8 @@ h5 {
   color: rgb(0, 0, 0);
   font-size: 22px;
 }
-.descriptionHr {
-  color: yellow;
+.desciptionHr {
+  color: rgb(236, 236, 232);
 }
 
 .topnav {

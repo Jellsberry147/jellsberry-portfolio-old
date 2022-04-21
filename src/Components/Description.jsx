@@ -17,14 +17,17 @@ export function Description() {
       </p>
       <ul>
         <li>
-          Comfortable with HTML, CSS, and several JS Libraries
+          Comfortable with HTML, CSS, and currently learning several JS
+          Libraries
           <em> including React!</em>
         </li>
         <li>Looking for a company in which to grow, learn, and amaze!</li>
         <li>Endorsed by Wonder-Dev!</li>
       </ul>
       <div>
-        <button className="detailsButton">VIEW DETAILS</button>
+        <button className="detailsButton" a="www.google.com">
+          VIEW DETAILS
+        </button>
         <button className="projectsButton">PROJECTS!</button>
       </div>
     </div>

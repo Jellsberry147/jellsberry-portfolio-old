@@ -5,7 +5,7 @@ export function Bottom() {
     <div className="bottom">
       <footer>
         <p>Copyright © {new Date().getFullYear()}</p>
-        <div>
+        <div className="footer-link">
           <a
             class="footer-link"
             href="https://www.linkedin.com/in/joseph-ellsberry/"

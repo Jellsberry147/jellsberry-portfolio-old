@@ -5,7 +5,7 @@ import { Content } from "./Content";
 import { Navbar } from "./Navbar";
 import { Thing } from "./Thing";
 
-function App() {
+const App = () => {
   return (
     <div>
       <Navbar />
@@ -15,6 +15,6 @@ function App() {
       <Bottom />
     </div>
   );
-}
+};
 
 export default App;

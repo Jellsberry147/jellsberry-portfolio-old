@@ -1,5 +1,5 @@
 import React from "react";
-import Bay from "./bay.jpg";
+import Bay from "../bay.jpg";
 
 export function Thing() {
   return (

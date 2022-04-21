@@ -1,8 +1,4 @@
 import React from "react";
-import BeachL from "./beachL.jpg";
-import BeachML from "./beachML.jpg";
-import BeachMR from "./beachMR.jpg";
-import BeachR from "./beachR.jpg";
 
 export function Content() {
   return (
@@ -14,21 +10,23 @@ export function Content() {
           company, while still using all of my own assets to show off my unique
           personality.
         </h1>
-        <div className="beachIMG">
-          <div className="beachIMGL">
-            <img src={BeachL} alt="Beach" className="beachImg" />
-          </div>
+        <div className="flex-container">
+          <div className="beachIMGs">
+            <div className="beachIMGL">
+              <p>Here's some content.</p>
+            </div>
 
-          <div className="beachIMGML">
-            <img src={BeachML} alt="Beach" className="beachImg" />
-          </div>
+            <div className="beachIMGML">
+              <p>Wowza, more content!</p>
+            </div>
 
-          <div className="beachIMGMR">
-            <img src={BeachMR} alt="Beach" className="beachImg" />
-          </div>
+            <div className="beachIMGMR">
+              <p>More? I must be a madman!</p>
+            </div>
 
-          <div className="beachIMGR">
-            <img src={BeachR} alt="Beach" className="beachImg" />
+            <div className="beachIMGR">
+              <p>Finally! That has to be all of it!</p>
+            </div>
           </div>
         </div>
       </div>
@@ -36,7 +34,7 @@ export function Content() {
         <h5>
           Having studied under Michael extensively and as a graduate of several
           web development courses focusing on JS and many fundamentals, I will
-          be a valuable addition to your team!{" "}
+          be a valuable addition to your team!
         </h5>
         <h5>
           I anticipate graduating with my Bachelor's degree in programming in
