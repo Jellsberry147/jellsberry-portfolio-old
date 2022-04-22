@@ -1,6 +1,6 @@
 import { BannerImage } from "./BannerImage";
 
-export function Bobbies() {
+export function Hobbies() {
   return (
     <div>
       <BannerImage />
