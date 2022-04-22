@@ -6,7 +6,7 @@ import { Home } from "./Home";
 import { Navbar } from "./Navbar";
 import { Contact } from "./Contact";
 import { About } from "./About";
-import { Hobbies } from "./Hobbies";
+import { Bobbies } from "./Hobbies";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/jellsberry-portfolio/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
-          <Route path="/hobbies" element={<Hobbies />} />
+          <Route path="/bobbies" element={<Bobbies />} />
         </Routes>
       </div>
       <Bottom />
