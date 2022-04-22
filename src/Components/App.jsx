@@ -17,7 +17,7 @@ function App() {
           <Route path="/jellsberry-portfolio/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
-          <Route path="/bobbies" element={<Hobbies />} />
+          <Route path="/hobbies" element={<Hobbies />} />
         </Routes>
       </div>
       <Bottom />
