@@ -14,11 +14,10 @@ function App() {
       <Navbar />
       <div className="display">
         <Routes>
+          <Route path="/jellsberry-portfolio/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/hobbies" element={<Hobbies />} />
-
-          <Route path="/jellsberry-portfolio/" element={<Home />} />
         </Routes>
       </div>
       <Bottom />
