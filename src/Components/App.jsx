@@ -15,9 +15,9 @@ function App() {
       <div className="display">
         <Routes>
           <Route path="/jellsberry-portfolio/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/hobbies" element={<Hobbies />} />
+          <Route path="/jellsberry-portfolio/contact" element={<Contact />} />
+          <Route path="/jellsberry-portfolio/about" element={<About />} />
+          <Route path="/jellsberry-portfolio/hobbies" element={<Hobbies />} />
         </Routes>
       </div>
       <Bottom />
