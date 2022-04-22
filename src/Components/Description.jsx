@@ -27,7 +27,7 @@ export function Description() {
       </ul>
       <div>
         <Link
-          to="/About"
+          to="/jellsberry-portfolio/About"
           className="aboutButton"
           title="Links to 'About Me' Page"
         >
