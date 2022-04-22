@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/jellsberry-portfolio/static/css/main.ad614a13.css",
+    "main.js": "/jellsberry-portfolio/static/js/main.18037556.js",
+    "static/media/beachL.jpg": "/jellsberry-portfolio/static/media/beachL.90c10c83dec864f41de6.jpg",
+    "static/media/beachML.jpg": "/jellsberry-portfolio/static/media/beachML.c48128210f7a1d1f4f60.jpg",
+    "static/media/beachMR.jpg": "/jellsberry-portfolio/static/media/beachMR.74be2986d6dc52bf7a8d.jpg",
+    "static/media/beachR.jpg": "/jellsberry-portfolio/static/media/beachR.485991c687f17dc98113.jpg",
+    "static/media/bay.jpg": "/jellsberry-portfolio/static/media/bay.601b33de202cd53987e3.jpg",
+    "index.html": "/jellsberry-portfolio/index.html",
+    "main.ad614a13.css.map": "/jellsberry-portfolio/static/css/main.ad614a13.css.map",
+    "main.18037556.js.map": "/jellsberry-portfolio/static/js/main.18037556.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad614a13.css",
+    "static/js/main.18037556.js"
+  ]
+}
