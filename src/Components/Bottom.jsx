@@ -7,16 +7,16 @@ export function Bottom() {
         <p>Copyright © {new Date().getFullYear()}</p>
         <div className="footer-link">
           <a
-            class="footer-link"
+            className="footer-link"
             href="https://www.linkedin.com/in/joseph-ellsberry/"
           >
             Linkedin
           </a>
-          <a class="footer-link" href="https://twitter.com/Jellsberry147">
+          <a className="footer-link" href="https://twitter.com/Jellsberry147">
             Twitter
           </a>
           <a
-            class="footer-link"
+            className="footer-link"
             href=" https://www.youtube.com/channel/UCKBuhZMwUCFGZ7kGx-MvrPQ"
           >
             YouTube

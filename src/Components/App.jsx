@@ -1,20 +1,29 @@
 import React from "react";
-import { Description } from "./Description";
-import { Bottom } from "./Bottom";
-import { Content } from "./Content";
-import { Navbar } from "./Navbar";
-import { Thing } from "./Thing";
+import { Route, Routes } from "react-router-dom";
 
-const App = () => {
+import { Bottom } from "./Bottom";
+import { Home } from "./Home";
+import { Navbar } from "./Navbar";
+import { Contact } from "./Contact";
+import { About } from "./About";
+import { Hobbies } from "./Hobbies";
+
+function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
-      <Description />
-      <Thing />
-      <Content />
+      <div className="display">
+        <Routes>
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/hobbies" element={<Hobbies />} />
+
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </div>
       <Bottom />
     </div>
   );
-};
+}
 
 export default App;

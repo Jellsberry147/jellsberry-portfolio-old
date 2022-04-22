@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export function Description() {
   return (
@@ -7,7 +8,7 @@ export function Description() {
       <hr className="desciptionHr" />
       <p>
         <span className="descriptionIntro">
-          <i> Fast Learner, Strong Developer</i>
+          <i> Fast Learner, Ambitious Developer</i>
         </span>
       </p>
       <p>
@@ -17,18 +18,29 @@ export function Description() {
       </p>
       <ul>
         <li>
-          Comfortable with HTML, CSS, and currently learning several JS
-          Libraries
-          <em> including React!</em>
+          Comfortable with HTML, CSS, and currently working towards mastery of
+          JS, as well as its library,
+          <em> React!</em>
         </li>
         <li>Looking for a company in which to grow, learn, and amaze!</li>
-        <li>Endorsed by Wonder-Dev!</li>
+        <li>Endorsed by Michael, the Wonder-Dev!</li>
       </ul>
       <div>
-        <button className="detailsButton" a="www.google.com">
-          VIEW DETAILS
-        </button>
-        <button className="projectsButton">PROJECTS!</button>
+        <Link
+          to="/About"
+          className="aboutButton"
+          title="Links to 'About Me' Page"
+        >
+          More About Me!
+        </Link>
+
+        <a
+          href="https://github.com/Jellsberry147"
+          className="projectsButton"
+          title="Links to Github"
+        >
+          Check out my Projects!
+        </a>
       </div>
     </div>
   );

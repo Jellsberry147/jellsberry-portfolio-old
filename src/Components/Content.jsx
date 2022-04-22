@@ -1,30 +1,38 @@
 import React from "react";
+import { BannerImage } from "./BannerImage";
+import { Description } from "./Description";
 
 export function Content() {
   return (
     <div className="content">
+      <BannerImage />
+      <div className="descriptionWrapper">
+        <Description />
+      </div>
       <div>
-        <h1>
-          I decided to replicate the basic style of the Comcast Business website
-          in order to demonstrate that I'll be comfortable developing for your
-          company, while still using all of my own assets to show off my unique
-          personality.
-        </h1>
+        <div className="explanationText">
+          <h1>
+            I decided to replicate the basic style of the Comcast Business
+            website in order to demonstrate that I'll be comfortable developing
+            for your company, while still using all of my own assets to show off
+            my unique personality.
+          </h1>
+        </div>
         <div className="flex-container">
-          <div className="beachIMGs">
-            <div className="beachIMGL">
+          <div>
+            <div className="beachIMGL contentIMG">
               <p>Here's some content.</p>
             </div>
 
-            <div className="beachIMGML">
+            <div className="beachIMGML contentIMG">
               <p>Wowza, more content!</p>
             </div>
 
-            <div className="beachIMGMR">
+            <div className="beachIMGMR contentIMG">
               <p>More? I must be a madman!</p>
             </div>
 
-            <div className="beachIMGR">
+            <div className="beachIMGR contentIMG">
               <p>Finally! That has to be all of it!</p>
             </div>
           </div>
@@ -32,9 +40,9 @@ export function Content() {
       </div>
       <div className="details">
         <h5>
-          Having studied under Michael extensively and as a graduate of several
-          web development courses focusing on JS and many fundamentals, I will
-          be a valuable addition to your team!
+          Having studied under Michael extensively and through my exploration of
+          several web development courses focusing on JS and many fundamentals,
+          I will be a valuable addition to your team!
         </h5>
         <h5>
           I anticipate graduating with my Bachelor's degree in programming in
