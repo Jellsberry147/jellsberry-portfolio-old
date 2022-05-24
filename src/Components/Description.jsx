@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export function Description() {
   return (
     <div className="description">
-      <h3>LIMITED-TIME OFFER</h3>
+      <h3>Joseph Ellsberry: Creative Mastermind</h3>
       <hr className="desciptionHr" />
       <p>
         <span className="descriptionIntro">
@@ -23,7 +23,10 @@ export function Description() {
           <em> React!</em>
         </li>
         <li>Looking for a company in which to grow, learn, and amaze!</li>
-        <li>Endorsed by Michael, the Wonder-Dev!</li>
+        <li>
+          Familiar with AWS, Java, C++, Python, Microsoft Office, and many more
+          technologies!
+        </li>
       </ul>
       <div>
         <Link

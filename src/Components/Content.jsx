@@ -10,37 +10,29 @@ export function Content() {
         <Description />
       </div>
       <div>
-        <div className="explanationText">
-          <h1>
-            I decided to replicate the basic style of the Comcast Business
-            website in order to demonstrate that I'll be comfortable developing
-            for your company, while still using all of my own assets to show off
-            my unique personality.
-          </h1>
-        </div>
         <div className="flex-container">
           <div>
             <div className="beachIMGL contentIMG">
-              <p>Here's some content.</p>
+              <p>I'm currently learning best practices for adaptive pages!</p>
             </div>
 
             <div className="beachIMGML contentIMG">
-              <p>Wowza, more content!</p>
+              <p>These images shrink and adjust based on your screen width.</p>
             </div>
 
             <div className="beachIMGMR contentIMG">
-              <p>More? I must be a madman!</p>
+              <p>Go ahead, make the website smaller!</p>
             </div>
 
             <div className="beachIMGR contentIMG">
-              <p>Finally! That has to be all of it!</p>
+              <p>Better yet, check it out on a mobile device!</p>
             </div>
           </div>
         </div>
       </div>
       <div className="details">
         <h5>
-          Having studied under Michael extensively and through my exploration of
+          Having studied extensively independently and through my exploration of
           several web development courses focusing on JS and many fundamentals,
           I will be a valuable addition to your team!
         </h5>

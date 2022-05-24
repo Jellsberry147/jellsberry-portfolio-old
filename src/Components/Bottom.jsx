@@ -17,6 +17,12 @@ export function Bottom() {
           </a>
           <a
             className="footer-link"
+            href="https://jnorth3393.wixsite.com/ideasync"
+          >
+            Wix
+          </a>
+          <a
+            className="footer-link"
             href=" https://www.youtube.com/channel/UCKBuhZMwUCFGZ7kGx-MvrPQ"
           >
             YouTube

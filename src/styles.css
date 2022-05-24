@@ -25,6 +25,10 @@ h1 {
 }
 
 .explanationText {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5%;
+  text-align: center;
   align-items: center;
   justify-content: center;
   flex-grow: 1;
@@ -58,6 +62,7 @@ ul {
   align-content: space-between;
   justify-content: space-around;
 }
+
 .contentIMG {
   background-size: cover;
   aspect-ratio: 1/1.5;
