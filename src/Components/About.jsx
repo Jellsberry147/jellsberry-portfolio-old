@@ -18,12 +18,14 @@ export function About() {
             <li>
               <h2>Educational Goals</h2>
               <p className="aboutPara">
-                I'm currently only a few months away from finishing my
-                Bachelor's degree. After a short break from university life to
-                get my career started, I plan to go for my Master's. In the
-                meantime, I plan to continue learning everything I can that Web
-                Development has to offer through Youtube, Udemy, and the
-                development clubs I'm a part of.
+                I finished my Bachelor's degree with a solid 4.0 cumulative GPA
+                and have been developing my technical skills ever since. After a
+                short break from university life to get my career started, I
+                plan to go for my Master's. In the meantime, I plan to continue
+                learning everything I can that Web Development, Database
+                Management, Digital Device Creation, Project Management, and
+                Software Engineering have to offer through Youtube, Udemy, and
+                the development clubs I'm a part of.
               </p>
             </li>
           </li>
