@@ -37,8 +37,9 @@ export function Content() {
           I will be a valuable addition to your team!
         </h5>
         <h5>
-          Having recently graduated with my Bachelor's degree in programming in
-          October 2022, I can't wait to get started on my career!
+          Having recently graduated with my Bachelor's Degree in Computer
+          Information Systems in October 2022, I can't wait to get started on my
+          career!
         </h5>
       </div>
     </div>
